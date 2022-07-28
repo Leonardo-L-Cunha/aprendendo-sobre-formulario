@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+</head>
+<body>
+    <form>
+       <label for="nome">Nome</label>
+        <input type="name" id="nome" name="nome" placeholder="Digite seu nome aqui..." required="true">
+ <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Digite seu email aqui..."  required="true">
+
+    <label for="descricao">Descrição</label>
+    <textarea id="descricao" placeholder="fale mais sobre você aqui..." name="mensagem" id="descricao" cols="30" rows="10" required="true"></textarea>
+
+    <label for="modulo">Modulo</label>
+    <select id="modulo" name="modulo" required="true"> 
+    <option value="">Escolher Módulo</option>
+    <option value="front-end">Front-end</option>
+    <option value="Back-front">Back-front</option>
+    <option value="python">Python</option>
+</select>
+<label for="senha">Senha</label>
+<input type="password" id="senha" name="senha" placeholder="Digite sua senha aqui..." required="true">
+<label for="senhaconfir">Confirmar Senha</label>
+<input type="password" id="senhaconfir" name="confirmasenha" placeholder="Digite  sua senha novamente aqui...">
+<P>Dejesa receber novidades em seu e-mail</P>
+<label for="sim">Sim</label>
+<input type="radio" value="sim" id="sim" name="escolheu">
+<label for="nao">Não</label>
+<input type="radio"  value="nao"  id="nao"  name="escolheu">
+<button type="submit">Cadastrar</button>
+
+</form>
+</body>
+</html>

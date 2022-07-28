@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- input para login-senha-cadastro-->
+    <form>
+<label for="nome">Nome</label>
+<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required="true">
+ <label for="senha">Senha</label>
+ <input type="password"id="senha" name="senha" placeholder="Digite sua senha" required="true">
+ <button type="submit">Cadastrar</button>
+</form>
+ <!--input para caixa de marcacao-->
+<form>
+    <P>Qual e o método de contado ?</P>
+<label for="email">E-mail</label>
+ <input type="radio" value="email" name="inputexemplo" id="email" required="true">
+
+ <label for="telefone">Telefone</label>
+ <input type="radio" value="telefone" name="inputexemplo"id="telefone"required="true">
+
+ <label for="whatsapp">Whatsapp</label>
+ <input type="radio" value="whatsapp" name="inputexemplo" id="whatsapp"required="true">
+ <button type="submit">Enviar</button>
+</form>
+
+<!--forma de seleção escolha -->
+
+<form>
+<label for="escolha qual e o melhor time">Escolha qual e o melhor time</label>
+<select required="true" name="time"id="escolha qual e o melhor time">
+
+<option value="">Qual e o melhor time?</option>
+<option value="sao-paulo">São Paulo</option>
+<option value="flamengo">Flamengo</option>
+<option value="corinthians">Corinthians</option>
+</select>
+<button type="submit">Enviar</button> 
+</form>
+<!-- cria caixa de dialagos grandes-->
+<form >
+    <label for="mensagem">Escreva Aqui</label>
+    <textarea  id="mensagem" name="mensagem" placeholder="por que seu time e o melhor ?" required="true" cols="30" rows="10"></textarea>
+    <button type="submit">Enviar</button>   
+</form>
+
+
+</body>
+</html>
